@@ -1,0 +1,51 @@
+/*
+    typography  is the way hat text is arranged and presented. 
+*/
+body{
+    
+    border: 2px dotted red;
+    border-radius: 10%;
+    padding :10%;
+    font-size: 1.rem;
+    text-align: justify;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhIVFRUXFRUXFxUVFRUXFRcVFRUXFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJ4BPwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBAf/xAAhEAEBAQEBAAICAwEBAAAAAAAAAQIREgMhMWFBUYFx8P/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD4pC4igixFApV6CwFpZgQ+ApZc+H2ASdXiyAuDmQycBZSqcOQFxCmf8XOfr/3+OkyDn540jpYkkAblPLpNJn9g4bcuvTuOGsgKVcrQcx2doaoJ1NN0aCWNxm6CRqlQF4ydaUC6lFfQDwoPtOgbN1gXiSMUBOItrdBliyNIDRfJSL0FzDzExCsBuHxIWYBzK4jYjpKC5VpFnAXqWfZSNYDnakp1JkHP5I5aejccNg5yDSkGgA6OhsBo0hoNQ0fR0AqkrAvGiVJQWsUSwB4UjWpKDLELoNKotAarluFQWZbEaLKBSLPwPTBcx0gYpygp5gHmg6QpHOUsUHWFnjnIQF3+msGxcglrS/wuhgJqOW8u9rnuA8+g07bn8B5BxqU9fhP4BLAuWvyJaAyjutmJoAX0yA3VjZLILKur9JmxOgMS0q3QaNxovAbjMlgHClHN+hmgdZotVywfQXixuNwCy6xzzk4ByFlz9Lmg7SHA6voGtLNDhyA6dHNTVafoHRztK9HgNB06zLaoPN5o/Ttpy0DjY56d9OWoDjf+Jx08p5BxtaQ7E1kHOxHTynkB4sXy0gNVTyecQBsc667c/ILFQsgPC8lcrkGv4CZLpzUAZOFF8p5ArpJVsQDzspXGOuQMp+hhwFhpgpkGjpctjLrYDjJVdJlfIBPkKDqRL9A3v8pbaF1/ZWgGvtz1HTTj8ugG0a0TVBOB8lVz1fsEo1d0AWsjdBY3ElK6BowddAShw9Ofqg6JK3pAdZUuhhcBrUlLyIHNHK5w8AVHRWDJQZ0zAOaBeumaOY6YyDSFFq4naDr8MMOcS7A1ze/kfVXOoBaw56PWnPQOe599KT+0q+QFw+T9u3XL5Ac9OXp1289oLdud0yUFtSrmN5BrRL6bgJYMpWJcgJ/Fv+BXXOgXyOfD1RoNxYzWAs0soLKDraEIKB0455KgU0vakKAl0UC/8af4D0T9F6c8UuAfpca/YjKD035SzXDJTgOutfttVwn3Sn5+gdZ1tfhvQ73Aa/Jz8pfkc/cqX9AutOWqtrjvX0Cb05rW4AVFtXM+gKJUg0Gq9DVW0G6NqpwGlIYtv2C6+hmj1ewJAKNaUKyA5Kq/wDSjqmOgaVboWgOsXiYKg3V6FL2Drl0xr6ccaXWgdbobUmk6B+vpM3g+uBd/YO+a6Y0883XWXgH6ctylv5Amugmp9Dyug6oOfpztdKEyCpYf4EAsXi0dUGtGt1qAWMo0FlVMsDSLI0rQB42S1GBjgECcXrdjUGRm4CcLMRug6NipkwTTRKuaBZvD7A9NNAetJ74l059B0tShdFAdMuma5jnoLulgYcBdVy1T1pztAerKEizQOrnpfTlfkBbU6nppQVanBoNoSlSgjdbqdBYtosBWpVjaBlqQoDZaQpGAeNatg6oMnWy1App0zXF0xQLSemtCg6TS9gZLNBLUjWrgG665056yEoO/pJXK1pQejo1Pj10qCWhqlQ1ACIUn21yAVDG0EZep0HQbCzU2A8SlmtoA43FtGgdo5iLkFlWxk0D/2Q==);
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}  
+h1, label{
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7CNBtpov50DsrOBeXg2WzjzLnYQBPb8Ss9uqlV9Ikg6gzNH4_kYbeTlk1jM7xmIBFmwQ&usqp=CAU);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+
+}
+p{
+    text-transform: capitalize;
+    text-indent: 50px;
+    word-spacing: 2px;
+    font-weight: normal;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7CNBtpov50DsrOBeXg2WzjzLnYQBPb8Ss9uqlV9Ikg6gzNH4_kYbeTlk1jM7xmIBFmwQ&usqp=CAU);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.link:visited{
+    color:aqua;
+    opacity: 0.5;
+    counter-increment: 12;
+}
+.link:hover{
+    color:pink;
+    opacity: 0.5;
+}
+.link:focus{
+    color:greenyellow;
+}
+link:active{
+    color:blue;
+}

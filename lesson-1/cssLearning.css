@@ -1,0 +1,27 @@
+*{
+    font-family: monospace;
+}
+body{
+    font-size: 16px;
+    
+}
+p{
+    color:limegreen;
+    background-color: black;
+
+
+}
+
+p.essay{
+    color:bisque;
+}
+
+#second{
+    color: cornflowerblue;
+}
+
+h1{
+    color: #FFDF60;
+    opacity: 0.2;
+    background-color: #00207F;
+}

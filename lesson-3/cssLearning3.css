@@ -1,0 +1,25 @@
+*{
+    margin:1;
+    box-sizing: content-box;
+}
+h1, p{
+
+    border:3px double red;
+    outline: 3px solid blue;
+    outline-offset:-5px;
+    padding : 1.5rem 3em;
+    width:75%;
+    margin:1rem;
+    
+}
+.circle {
+    background-color: gold;
+    width:400px;
+    height: 400px;
+    margin:1% 25% ;
+    border:100px solid black;
+    outline:2px solid blue;
+    border-radius: 400px;
+    border-top-style:double ;
+    outline-offset:2.5rem; 
+}
