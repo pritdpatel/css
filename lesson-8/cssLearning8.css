@@ -1,0 +1,25 @@
+body {
+    font-size: 1.5rem;
+}
+.Header{
+    width:30vw;
+    height:30vw;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+.left{
+    float: left;
+    margin:10px;
+    text-align: center;
+    
+}
+.clear{
+    clear: both;
+}
+
+section{
+    border: 2px solid red;
+    background-color: gold;
+    display:flow-root;
+}

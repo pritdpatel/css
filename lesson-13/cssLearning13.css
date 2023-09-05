@@ -1,0 +1,28 @@
+
+.example{
+    display: grid;
+    place-content: center;
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 2px solid black;
+    background-image:linear-gradient(to left,rgba(255, 0, 0, 0.6),rgb(0,255,0,0.6),rgba(0,0,255, 0.6)),
+     url(https://img.freepik.com/free-vector/transparent-multicolored-soap-bubbles-set-plaid-background-sphere-ball-design-water-foam-aqua-wash_1284-41350.jpg?w=740&t=st=1693885291~exp=1693885891~hmac=3eb37969c917f8efb39d33252bb89f6d05b984b0adfb7900a24bcba893d5df14);
+    transform: rotate3d(0,100,100,23deg);  
+    background-size: cover;
+    
+}
+
+.example img{
+    display: block;
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 50%;
+    outline: 2px solid pink ;
+    outline-offset: 5px; 
+    object-fit:cover;
+    opacity: 100%;
+
+}

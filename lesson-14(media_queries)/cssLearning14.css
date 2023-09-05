@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    background-color: black;
+    font:1.5rem sans-serif;
+    min-height: 100vh;
+}
+/* media question ans */
+@media  screen and (min-width:400px) {
+    body{
+        
+        background-color: radial-gradient(silver,blue);
+    }
+}
+@media screen and (min-width:500px) {
+    body{
+        background-image: radial-gradient(whitesmoke,red);
+    }
+}

@@ -1,0 +1,29 @@
+section{
+    height: 100vh;
+    background-image: url(https://imgs.search.brave.com/gIwSMCAPRCIX0mZkV3mdWSPlKVC3CQkfi_pYnSO7fZg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/NDY1NDg0OS9waG90/by9wdXBweS1ydW5u/aW5nLWF0LXRoZS1w/YXJrLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1XVnJKejVF/SFYxNTZmeFN3LWJ6/OXpZVHp4QjZYY2l4/LUFna1dDLXBORng4/PQ);
+    background-size:contain;
+    position:sticky;
+    top:0;
+
+}
+
+.blue{background-color: blue;}
+.red{background-color: red;}
+.green{background-color: green;}
+
+header, footer{
+    color:aliceblue;
+    text-align: center;
+    height: 100px;
+    font-size: 5rem;
+}
+header{
+
+}
+footer{
+    background-color: black;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    font-size: 19px;
+}

@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg);
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas:
+    "hd hd hd hd hd hd sd sd" 
+    "mn mn mn mn mn mn sd sd"
+    "ft ft ft ft ft ft ft ft";
+    gap:1rem;
+}
+header{
+    color:transparent;
+    display: grid;
+    background-color: transparent;
+    grid-area: hd;
+    place-content: center;
+}
+
+section{
+    display: grid;
+    grid-area: mn;
+    border: 2px solid red;
+
+}
+.Sidebar{
+    color:transparent;
+    background-color: transparent;
+    display: grid;
+    grid-area: sd;
+    place-content: center;
+}
+footer{
+    color:transparent;
+    background-color: transparent;
+    display:grid;
+    grid-area: ft;
+    place-content: end center;
+}
+
+.box{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.main_container{
+    gap:10px;
+    min-height: 400px;  
+    grid-template-columns: repeat(2,1fr 2fr) 
+}
+.box:first-child, .box:nth-child(3){
+    place-content: center;
+    grid-column: 2 / 5;
+}
+header:hover{
+    color:red;
+    font-size: 25px;
+    background-color: violet;
+}
+.Sidebar:hover{
+    color:red;
+    font-size: 25px;
+    background-color: violet;
+}
+footer:hover{
+    color:red;
+    font-size: 25px;
+    background-color: violet;
+}

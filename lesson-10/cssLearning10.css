@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 200vh;
+}
+.outer_container{
+    border: 2px dashed black;
+    width:75vw;
+    height: 85vh;
+    margin: 40px auto;
+}
+
+.inner-container{
+    border: 2px solid black;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+    padding:1rem;
+    
+}
+
+.absolute{
+    background-color: blue;
+    position:absolute;
+    top:0;
+    left: -10px;
+    z-index: 1;
+}
+.relative{
+    background-color: red;
+    position:relative;
+    top:10px;
+    left:10px;
+}
+.fixed{
+    background-color: chocolate;
+    position: fixed;
+    top: 10px;
+    left: 100px;
+}
+.sticky{
+    background-color: black;
+    position: sticky;
+    top: 30px;
+    left:30px
+}
