@@ -1,9 +1,21 @@
 :root{
+    --TRANSP:transparent;
     --SET-COLOR-PINK:rgba(64, 40, 71, 0.911);
-    --BGCOLOR:linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1))
+    --BGCOLOR:linear-gradient(to left,rgba(255,0,0,0),rgba(255,0,0,1),rgba(255,0,0,0))
 }
 
 h1{
-    color:var(--SET-COLOR-PINK);
+    font-size: 32px;
+    color:var(--TRANSP);
     background-image: var(--BGCOLOR);
+    display: block;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+p{
+    font-size: 32px;
+    font-weight: bold;
+    background-image:var(--BGCOLOR);
+    
 }
